@@ -13,5 +13,8 @@ public class Ex06 {
     for(int i = 0; i < score.length; i++) {
       System.out.println("score[" + i + "] = " + score[i]);
     }
+
+    int arrayLength = score.length;
+    System.out.println("arrayLength = " + arrayLength); // 배열의 길이
   }
 }
