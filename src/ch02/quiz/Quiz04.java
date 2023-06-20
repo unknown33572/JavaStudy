@@ -26,13 +26,13 @@ public class Quiz04 {
 				case 0:
 					result = "Draw.";
 			}
-			switch (myChoice){
+			switch (myChoice) {
 				case 1: choice="가위"; break;
 				case 2: choice="바위"; break;
 				case 3: choice="보"; break;
 			}
 			System.out.println("You: " + choice);
-			switch (comChoice){
+			switch (comChoice) {
 				case 1: choice="가위"; break;
 				case 2: choice="바위"; break;
 				case 3: choice="보"; break;
