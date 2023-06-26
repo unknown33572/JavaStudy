@@ -17,7 +17,6 @@ public class Ex16 {
     d.check();
     d.unload();
     d.check();
-
   }
 }
 
@@ -46,7 +45,7 @@ class Tank extends Unit {
 class Dropship extends Unit {
   int people = 0;
   void move(int x, int y) {
-    System.out.println("Dropship[x=" + x + ",y=" + y + "]" + "으로 이동합니다.");g
+    System.out.println("Dropship[x=" + x + ",y=" + y + "]" + "으로 이동합니다.");
   }
   void load() {
     /* 선택된 대상을 태운다. */
@@ -57,9 +56,10 @@ class Dropship extends Unit {
     /* 선택된 대상을 내린다. */
     System.out.println(people + "명 하차");
     people--;
-  }
 
+  }
   void check() {
     System.out.println(people + "명 탑승중");
   }
+
 }
