@@ -23,6 +23,8 @@ public class Ex17 {
 
     System.out.println(list2);
 
+    ArrayList list3 = new ArrayList(list2.subList(1, 4));
 
+    System.out.println(list3);
   }
 }
